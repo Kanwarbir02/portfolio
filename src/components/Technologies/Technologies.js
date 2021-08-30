@@ -14,7 +14,7 @@ const Technologies = () =>  (
 
   <List>
     <ListItem>
-      <DiReact size="6rem" color="#38DADA"/>
+      <DiReact size="6rem" color="#38DADA" blur="10px"/>
     </ListItem>
     <ListContainer>
       <ListTitle>React.js</ListTitle>

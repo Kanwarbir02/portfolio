@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: "Face Detector", text: 'JS-based face detection website using Face-api Models', },
+  { year: "Todo WebApp", text: 'Full-fledged Todo List with Node.js and Mongoose', },
+  { year: "Star Invader", text: '2-dimensional game using Python', },
+  { year: "Realtime ChatApp", text: 'Firebase supported chatting app built with React', }
 ];
