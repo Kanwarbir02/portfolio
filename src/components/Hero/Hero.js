@@ -17,7 +17,7 @@ const Hero = (props) => (
         A student at Thapar Institute of Engineering and Technology, currently pursuing Computer Science and Business Systems. I'm aiming to be a MERN stack developer, currently being proficient with FrontEnd and Backend Web Development.
       </SectionText>
 
-      <Button onClick={() => window.location="https://drive.google.com/file/d/1br9M8DdJkljBSVGiCp8MdwqC3dhwDBKi/view"}>Learn More</Button>
+      <Button onClick={() => window.location="https://drive.google.com/file/d/1V5huHjvNqgdW80mk-5Je6gAjJFDeYFqQ/view?usp=sharing"}>Learn More</Button>
     </LeftSection>
   </Section>
 );
