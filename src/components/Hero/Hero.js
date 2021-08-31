@@ -5,7 +5,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <Section row nonpadding>
+  <Section row nonpadding id="about">
     <LeftSection>
 
       <SectionTitle main center>
@@ -14,10 +14,10 @@ const Hero = (props) => (
       </SectionTitle>
 
       <SectionText>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in natus, dolorum consequuntur asperiores sed harum quaerat minima minus similique consequatur commodi blanditiis. Cupiditate corporis voluptatibus quos, suscipit expedita consequuntur.
+        A student at Thapar Institute of Engineering and Technology, currently pursuing Computer Science and Business Systems. I'm aiming to be a MERN stack developer, currently being proficient with FrontEnd and Backend Web Development.
       </SectionText>
 
-      <Button onClick={() => window.location="/"}>Learn More</Button>
+      <Button onClick={() => window.location="https://drive.google.com/file/d/1br9M8DdJkljBSVGiCp8MdwqC3dhwDBKi/view"}>Learn More</Button>
     </LeftSection>
   </Section>
 );

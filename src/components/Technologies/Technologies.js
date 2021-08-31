@@ -5,12 +5,12 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   
-  <Section>
+  <Section id="technologies">
     <SectionDivider />
     <br /><br /><br />
     <SectionTitle>Knowledge</SectionTitle>
 
-    <SectionText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos eius iste nam qui dolorum iure voluptatem debitis. Aspernatur accusantium iusto aut architecto? Similique harum minus qui nihil, doloribus tempore.</SectionText>
+    <SectionText>These are some of the languages, frameworks and technologies I've learned about since I got started with Programming.</SectionText>
 
   <List>
     <ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
 
   <List>
     <ListItem>
-        <DiNodejs size="10rem" color="#003900"/><DiMongodb size="6rem" color="#016001"/>
+        <DiNodejs size="10rem" color="#00B500"/><DiMongodb size="6rem" color="#016001"/>
       </ListItem>
       <ListContainer style={{marginTop:"50px"}}>
         <ListTitle>Node.js & MongoDB</ListTitle>
@@ -43,6 +43,18 @@ const Technologies = () =>  (
         <ListTitle>Basics of Frontend</ListTitle>
         <ListParagraph >Experience with JS DOM Manipulation, CSS and HTML <br /></ListParagraph>
       </ListContainer>
+  </List>
+
+  <List>
+    <ListItem>
+      <DiPython size="6rem" />
+    </ListItem>
+    <ListContainer>
+      <ListTitle>Python</ListTitle>
+      <ListParagraph>Other Programming Languages<br /></ListParagraph>
+    </ListContainer>
+
+    
   </List>
 
   </Section>

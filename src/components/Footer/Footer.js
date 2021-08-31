@@ -12,8 +12,8 @@ const Footer = () => {
 
           <LinkList>
             <LinkColumn>
-              <LinkTitle>Call</LinkTitle>
-              <LinkItem href="tel:xxxxxxxxxxxx">xxxxxxxxx</LinkItem>
+              {/* <LinkTitle>Call</LinkTitle>
+              <LinkItem href="tel:xxxxxxxxxxxx">xxxxxxxxx</LinkItem> */}
 
               <LinkTitle>Email</LinkTitle>
               <LinkItem href="mailto:ksingh6_be20@thapar.edu">ksingh6_be20@thapar.edu</LinkItem>

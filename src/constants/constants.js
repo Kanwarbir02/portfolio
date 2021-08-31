@@ -1,45 +1,42 @@
 export const projects = [
+  
   {
-    title: 'Tilting Social Media Icons',
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, quae fugiat. Minima nesciunt provident quod? Et, magni laboriosam! Voluptatum, asperiores placeat saepe qui accusantium vitae in quae pariatur blanditiis debitis!",
-    image: '/images/tilt.png',
-    tags: ['Javascript', 'CSS', 'Tilt-Main-JS'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'A Personal Voice Assistant',
+    description:"A personal Voice Assistant! Does as you command, from opening websites to searching up the internet. Built using Python, pyttx3 library as well as Google's Speech Recognizer.",
+    image: '/images/vassis.png',
+    tags: ['Python', 'Selenium', 'Google SR'],
+    source: 'https://github.com/Kanwarbir02/voice_assistant',
     id: 0,
   },
   {
-    title: 'A Personal Voice Assistant',
-    description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, quae fugiat. Minima nesciunt provident quod? Et, magni laboriosam! Voluptatum, asperiores placeat saepe qui accusantium vitae in quae pariatur blanditiis debitis!",
-    image: '/images/vassis.png',
-    tags: ['Python', 'Selenium', 'Google SR'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Face Detection Website',
+    description: "A Facial Expression Teller, which uses your webcam access for detecting faces and its assertions. Made using Face-API library and various models.",
+      image: '/images/facedet.png',
+      tags: ['Javascript', 'Face-API Models'],
+    source: 'https://github.com/Kanwarbir02/Face_Detector',
     id: 1,
   },
-  // {
-  //   title: 'WebRTC App',
-  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //     image: '/images/3.jpg',
-  //     tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
+  {
+    title: 'Video Chat Application',
+    description: "A Video-Chat web application using Socket.io which is still in progress. Will slowly be making it fully functional!",
+    image: '/images/vidchat.png',
+    tags: ['Javascript', 'Socket.io', 'HTML/CSS'],
+    source: 'https://github.com/Kanwarbir02/video-chat_webApp',
+    id: 2,
+  },
+  {
+    title: 'Realtime Chat Application',
+    description: "A Realtime chatting web application using firestore database, built with React.js. Sign up with google and chat with your friends through this!",
+    image: '/images/chatApp.png',
+    tags: ['React.js', 'Firebase'],
+    source: 'https://github.com/Kanwarbir02/React_Chat_App',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
-  { year: "Face Detector", text: 'JS-based face detection website using Face-api Models', },
-  { year: "Todo WebApp", text: 'Full-fledged Todo List with Node.js and Mongoose', },
-  { year: "Star Invader", text: '2-dimensional game using Python', },
-  { year: "Realtime ChatApp", text: 'Firebase supported chatting app built with React', }
+  { year: "3D Tilter", text: 'Using TiltMain.js, a 3D frontend social media icon tilter.', },
+  { year: "Todo WebApp", text: 'Full-fledged Todo List with Node.js and Mongoose.', },
+  { year: "Star Invader", text: '2-dimensional game using Python.', },
+  { year: "GUI Calculator", text: "Built with GUI calculator using Python and Tkinter lib.", }
 ];
